@@ -7,5 +7,3 @@ This chatbot uses `facebook/blenderbot-400M-distill` and custom HR knowledge to 
 - Gradio for UI  
 - Python Flask you can use as api 
 
-Live Demo 👉 _hosted on Hugging Face Spaces_
-
