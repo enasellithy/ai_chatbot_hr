@@ -1,0 +1,13 @@
+name: CodeFactor
+
+on: [push, pull_request]
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: CodeFactor
+        uses: codefactorio/codefactor-action@v1
+        with:
+          token: ${{ secrets.CODEFACTOR_TOKEN }}
